@@ -1,0 +1,5 @@
+<strong>commitPipeline(Map templateParams)</strong>
+
+<p>
+  Default Continuous Integration pipeline for the Spring Boot project build with Gradle.
+</p>
