@@ -7,14 +7,12 @@ pipeline {
         stages {
             stage('Build') {
                 steps {
-                     echo "Building project @templateParams.name"
-                     sh "./gradlew compileJava"
+			echo "ala"
                 }
             }
             stage('Unit test') {
                 steps {
-                     echo "Testing project @templateParams.name"
-                     sh "./gradlew test"
+			echo "ola"
                 }
             }
         }
