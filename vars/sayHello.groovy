@@ -2,5 +2,5 @@
  * Hello world step.
  */
 def call(String name) {   
-  echo "Hello $name!"
+  echo "Buenos dias $name!"
 }
